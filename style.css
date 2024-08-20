@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 20px 150px;
+    background-color: #1F2937;
+}
+
+.menu{
+    display: flex;
+    align-items: flex-start;
+    border: white dashed;
+}
+
+.header-links{
+    display: flex;
+    margin: 0px;
+    margin-left: auto;
+    gap:16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header Logo Text */
